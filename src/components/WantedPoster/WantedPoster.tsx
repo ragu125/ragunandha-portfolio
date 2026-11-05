@@ -80,7 +80,7 @@ export const WantedPoster: React.FC<WantedPosterProps> = ({
           <img
             src="/images/ragunandha.jpg"
             alt="Ragunandha M — Full Stack & AI Engineer"
-            className="w-full h-full object-cover object-top filter contrast-[1.08] saturate-[0.95] sepia-[0.1] transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-cover object-[center_42%] filter contrast-[1.04] transition-transform duration-500 group-hover:scale-105"
             loading="eager"
             onError={(e) => {
               // Fallback to direct import if path needs adjustment
@@ -133,3 +133,4 @@ export const WantedPoster: React.FC<WantedPosterProps> = ({
     </div>
   );
 };
+

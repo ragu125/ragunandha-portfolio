@@ -294,3 +294,4 @@ export const LogPoseNavbar: React.FC = () => {
     </>
   );
 };
+

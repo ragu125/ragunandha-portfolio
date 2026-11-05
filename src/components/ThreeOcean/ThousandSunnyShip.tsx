@@ -228,3 +228,4 @@ export const ThousandSunnyShip: React.FC<{ scrollOffset?: number }> = () => {
     </group>
   );
 };
+

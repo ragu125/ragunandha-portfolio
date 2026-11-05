@@ -62,7 +62,7 @@ export const AboutSection: React.FC = () => {
                     <img
                       src={developer.avatarUrl}
                       alt={developer.name}
-                      className="w-full h-full object-cover object-top filter contrast-[1.05]"
+                      className="w-full h-full object-cover object-[center_40%] filter contrast-[1.04]"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/src/assets/ragunandha.jpg';
@@ -247,3 +247,4 @@ export const AboutSection: React.FC = () => {
     </section>
   );
 };
+

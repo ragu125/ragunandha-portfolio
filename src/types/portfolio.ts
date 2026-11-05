@@ -113,3 +113,4 @@ export interface PortfolioData {
   certifications: CertificateItem[];
   milestones: MilestoneItem[];
 }
+

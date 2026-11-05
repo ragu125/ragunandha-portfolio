@@ -113,3 +113,4 @@ export const Seagulls: React.FC = () => {
     </group>
   );
 };
+

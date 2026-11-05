@@ -131,3 +131,4 @@ export const GrandLineScene: React.FC<GrandLineSceneProps> = () => {
     </div>
   );
 };
+
